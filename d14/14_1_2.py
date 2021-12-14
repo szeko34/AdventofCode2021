@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 subor = open("14.txt", "r")
 
 z=subor.readline().strip()
