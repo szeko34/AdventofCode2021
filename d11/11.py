@@ -13,7 +13,7 @@ I = [0, 0, 1, -1, 1, 1, -1, -1]
 J = [1, -1, 0, 0, -1, 1, -1, 1]
 f = 0
 
-def buchni(i, j):
+def buchni(i, j,k):
     global f
     if 0 <= i < 10 and 0 <= j < 10:
         pole[i][j] += 1
